@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1814A35829E2B82500BB6046 /* TabViewSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1814A35729E2B82500BB6046 /* TabViewSwiftUIApp.swift */; };
-		1814A35A29E2B82500BB6046 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1814A35929E2B82500BB6046 /* ContentView.swift */; };
+		1814A35A29E2B82500BB6046 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1814A35929E2B82500BB6046 /* MainTabView.swift */; };
 		1814A35C29E2B82800BB6046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1814A35B29E2B82800BB6046 /* Assets.xcassets */; };
 		1814A35F29E2B82800BB6046 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1814A35E29E2B82800BB6046 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		1814A35429E2B82500BB6046 /* TabViewSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabViewSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1814A35729E2B82500BB6046 /* TabViewSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewSwiftUIApp.swift; sourceTree = "<group>"; };
-		1814A35929E2B82500BB6046 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1814A35929E2B82500BB6046 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		1814A35B29E2B82800BB6046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1814A35E29E2B82800BB6046 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				1814A35729E2B82500BB6046 /* TabViewSwiftUIApp.swift */,
-				1814A35929E2B82500BB6046 /* ContentView.swift */,
+				1814A35929E2B82500BB6046 /* MainTabView.swift */,
 				1814A35B29E2B82800BB6046 /* Assets.xcassets */,
 				1814A35D29E2B82800BB6046 /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1814A35A29E2B82500BB6046 /* ContentView.swift in Sources */,
+				1814A35A29E2B82500BB6046 /* MainTabView.swift in Sources */,
 				1814A35829E2B82500BB6046 /* TabViewSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
